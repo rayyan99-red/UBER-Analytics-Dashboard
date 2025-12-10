@@ -1,20 +1,13 @@
 # UBER-Analytics-Dashboard
 ### 1.	Project Title / Headline
-A concise, descriptive name for the dashboard.
-Example: 
-❄️ Snowy Analytics: Global Ski Resort Insights Dashboard
-A dynamic, interactive data visualization tool built to explore ski resort data worldwide—focusing on regional comparisons, resort attributes, terrain complexity, and skier suitability.
+🚕 Uber Data Analytics Dashboard – Ride Trends, Revenue Insights & Customer Behavior:
+A dynamic, interactive Power BI dashboard designed to analyze Uber ride data with a focus on trip trends, revenue patterns, customer segments, payment methods, and operational performance.
 
 ### 2.	Short Description / Purpose
-1–2 sentences explaining what the dashboard does and why it exists.
-
-Example: 
-The Snowy Analytics Dashboard is a visually engaging and analytical Power BI report designed to help users explore and compare over 499 ski resorts across 38 countries and 5 continents. The dashboard focuses on highlighting major ski resort features like summer skiing availability, night skiing, lift types, and slope difficulty. This tool is intended for use by tourism analysts, winter sports enthusiasts, travel companies, and data-driven strategists who seek to understand trends and characteristics of ski resorts globally.
+The Uber Data Analytics Dashboard provides a comprehensive visual analysis of real-world Uber ride data. It helps users understand ride frequency, peak travel hours, revenue performance, popular pickup/drop zones, and customer behavior using clean, interactive visuals. This dashboard is ideal for data analysts, business strategists, and mobility companies who want deep insights into ride-sharing trends.
 
 ### 3.	Tech Stack
-List the key technologies used to build the dashboard.
-
-Example:
+List the key technologies used to build the dashboard
 The dashboard was built using the following tools and technologies:<br>
 •	📊 Power BI Desktop – Main data visualization platform used for report creation.<br>
 •	📂 Power Query – Data transformation and cleaning layer for reshaping and preparing the data.<br>
@@ -23,12 +16,16 @@ The dashboard was built using the following tools and technologies:<br>
 •	📁 File Format – .pbix for development and .png for dashboard previews.
 
 ### 4.	Data Source
-More info on where the data comes from and how it’s structured
-Example:
-Source: Ski-resort-stats.com & NASA Earth Observations. 
 
-Data on ~500 ski resorts around the world, including details on their location, prices, slopes, lifts, and seasons, as well as a complementary table with the snow cover around the world for each month of 2022.
-
+Source: youtube video description. 
+Trip start & end timestamps
+Pickup & drop locations
+Ride distance
+Fare amount
+Payment method
+Vehicle type (UberX, UberXL, Pool, etc.)
+Customer & driver identifiers
+Additional time intelligence columns (Hour, Day, Month, Week)
 
 ### 5.	Features / Highlights
 The best dashboard explanation format. 
@@ -39,51 +36,63 @@ The best dashboard explanation format.
 
 Example:
 •	Business Problem
-The global ski tourism industry generates billions in revenue, yet travelers, tour operators, and analysts often lack an intuitive way to compare resorts across countries. 
+The ride-sharing market generates massive daily data, yet identifying ride patterns, peak demand hours, revenue fluctuations, and customer behavior is not easy using raw CSV files.
 
 Key questions such as:
-Which regions offer the most family-friendly or expert-level skiing?
-Where is summer skiing available?
-What countries have the most well-equipped resorts?
-… are difficult to answer quickly with raw data.
+What time of day has the highest bookings?
+Which city zones generate maximum revenue?
+Which vehicle types are most preferred?
+What is the effect of weekends on rides?
+… often require a visual analytics tool.
 
 •	Goal of the Dashboard
-To deliver an interactive visual tool that:
-Enables users to explore ski resorts globally.
-Supports decisions such as vacation planning, regional marketing, or infrastructure investment.
-Uncovers trends in terrain, accessibility, and tourism capacity by region and resort.
+
+Helps users explore Uber ride patterns across time
+Highlights revenue and customer behavior insights
+Assists in identifying peak hours, high-demand zones, and performance metrics
+Supports business decisions like pricing, allocation, and operational planning
 
 •	Walkthrough of Key Visuals
--	Key KPIs (Top Left)
-Total number of resorts: 499
-Resorts with summer skiing: 29
-Resorts with night skiing: 204
-Child-friendly resorts: 495
-Countries covered: 38
-Continents represented: 5
--	Continent Filter Panel
-An interactive slicer lets users filter all visuals by selected continents, such as Europe or Asia.
--	Top Countries with Most Resorts (Bar Chart)
-Bar chart ranks countries like Austria, France, and the U.S. by number of ski resorts.
--	Slopes by Resort (Line Chart)
-Displays the distribution of slope types (beginner, intermediate, expert, and total). Helps identify which resorts favor beginners vs. experts.
--	 Resorts by Skill Level (Dual Line Charts)
-Two line visuals side by side: one for resorts that cater to beginners, another for experts—allowing skill-level segmentation.
--	Elevation Stats (Grouped Bar Chart)
-Compare the highest and lowest elevation points of resorts to understand terrain steepness and potential snow quality.
--	Lift Types by Resort (Stacked Bar Chart)
-Stacked bar chart showing:
-Gondola lifts
-Chair lifts
-Surface lifts
-Total lifts
-This helps users gauge resort infrastructure and capacity.
+🟦 KPI Cards (Top Section)
+
+Total Rides : 23k
+Total Revenue: 13M
+Average Fare :24.62 km
+Total Distance Traveled :625.62k Km
+Active Customers : 37k
+Vehicle Types Used : (UberX, UberXL, Pool, etc.)
+
+🟧 Ride Trend Analysis (Line Chart)
+Shows ride activity by hour, day, or month to identify peak traffic times.
+🟩 Revenue Insights (Bar / Area Chart)
+Breakdown of revenue by date, city zone, or vehicle type.
+🟪 Popular Pickup & Drop Locations (Map Visual)
+Interactive map showing hotspots for high activity.
+🟨 Payment Method Breakdown (Donut / Pie Chart)
+Distribution of payments via Cash, Card, UPI, Wallet, etc.
+🟫 Customer Segmentation (Bar Chart)
+Rides by age group, gender, or customer category.
+⬛ Vehicle Type Comparison (Stacked Bar)
+Comparison of UberX, UberXL, Comfort, Pool, etc.
+🟦 Filters / Slicers
+Time range
+Vehicle type
+Payment method
+City zone
+Customer type
 
 •	Business Impact & Insights
-Marketing Optimization: Travel agencies can use this dashboard to identify key selling points for different demographics (e.g., child-friendly resorts or expert terrain).
-Strategic Expansion: Resort developers can spot underdeveloped regions with high potential.
-Vacation Planning: Tourists can plan trips based on slope availability, elevation, and terrain difficulty.
-Regional Analysis: Governments and tourism bodies can analyze competitiveness by region.
+Operational Efficiency:
+Helps ride-sharing companies optimize vehicle allocation during peak hours.
+Pricing Strategy:
+Shows when demand increases—useful for surge-pricing decisions.
+Customer Experience:
+Identifies which customer segment uses rides most frequently.
+Market Expansion:
+Highlights zones with high vs low ride density for strategic expansion.
+Improved Decision-Making:
+Managers can track revenue, performance, and trends daily or monthly.
+
 
 ### 6.	Screenshots / Demos
 Show what the dashboard looks like. - ![Alt text](https://github.com/rayyan99-red/UBER-Analytics-Dashboard/blob/main/UBER%20Dashboard%20Overview.png)
